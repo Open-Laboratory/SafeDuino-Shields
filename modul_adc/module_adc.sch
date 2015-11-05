@@ -1,0 +1,605 @@
+EESchema Schematic File Version 2  date Thu 03 Apr 2014 16:12:46 MSK
+LIBS:LFcapitors
+LIBS:LFcomponents
+LIBS:LFconnectors
+LIBS:LFdiod
+LIBS:LFresistor
+LIBS:LFtransformator
+LIBS:LFbutton
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "3 apr 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2750 3350 3550 3350
+Connection ~ 3000 3050
+Wire Wire Line
+	3100 3050 3000 3050
+Wire Wire Line
+	6650 6400 6650 6100
+Wire Wire Line
+	6100 6900 7200 6900
+Wire Wire Line
+	6800 6800 6100 6800
+Wire Wire Line
+	7200 5200 6950 5200
+Wire Wire Line
+	6950 5200 6950 5300
+Wire Wire Line
+	6950 5300 6750 5300
+Wire Wire Line
+	6750 5000 7200 5000
+Wire Wire Line
+	5500 5300 5150 5300
+Wire Wire Line
+	5750 5000 6000 5000
+Wire Wire Line
+	6000 5500 5900 5500
+Wire Wire Line
+	6000 5200 5900 5200
+Wire Wire Line
+	6700 3950 6700 4050
+Wire Wire Line
+	6700 4050 6200 4050
+Wire Wire Line
+	6200 4050 6200 3950
+Connection ~ 6200 3600
+Wire Wire Line
+	6300 3600 6200 3600
+Wire Wire Line
+	5700 3150 6200 3150
+Wire Wire Line
+	6200 3150 6200 3700
+Wire Wire Line
+	2150 6500 1800 6500
+Wire Wire Line
+	2150 6300 1800 6300
+Wire Wire Line
+	2150 6100 1800 6100
+Connection ~ 1900 5550
+Wire Wire Line
+	1900 5550 1900 5450
+Wire Wire Line
+	1900 5450 1800 5450
+Wire Wire Line
+	1800 4700 2150 4700
+Wire Wire Line
+	2150 4500 1800 4500
+Wire Wire Line
+	1800 4300 2150 4300
+Wire Wire Line
+	1800 4100 2150 4100
+Wire Wire Line
+	1800 6850 2250 6850
+Connection ~ 3450 3650
+Connection ~ 3450 3550
+Wire Wire Line
+	3450 3550 3450 3800
+Connection ~ 3450 4150
+Wire Wire Line
+	3450 4150 3150 4150
+Wire Wire Line
+	3150 4150 3150 4050
+Wire Wire Line
+	3450 4050 3450 4400
+Wire Wire Line
+	3550 3650 3450 3650
+Wire Wire Line
+	5700 2750 6100 2750
+Wire Wire Line
+	5700 2850 6100 2850
+Wire Wire Line
+	2750 3250 3550 3250
+Wire Wire Line
+	5700 2650 6100 2650
+Wire Wire Line
+	3100 2850 3000 2850
+Wire Wire Line
+	3350 2850 3550 2850
+Wire Wire Line
+	1800 6950 2250 6950
+Wire Wire Line
+	2500 3000 2500 3100
+Connection ~ 2300 3100
+Wire Wire Line
+	2500 3100 2300 3100
+Connection ~ 2300 2650
+Wire Wire Line
+	2300 2750 2300 2650
+Wire Wire Line
+	2100 2550 3550 2550
+Wire Wire Line
+	2950 1300 2950 1650
+Connection ~ 2950 2150
+Wire Wire Line
+	3550 2150 2650 2150
+Wire Wire Line
+	2950 1900 2950 2150
+Wire Wire Line
+	2750 3550 3550 3550
+Wire Wire Line
+	6100 3550 5700 3550
+Wire Wire Line
+	5850 1350 5850 1600
+Wire Wire Line
+	5850 1850 5850 2050
+Wire Wire Line
+	5850 2050 5700 2050
+Wire Wire Line
+	3550 3150 3450 3150
+Wire Wire Line
+	6850 2100 7200 2100
+Wire Wire Line
+	6850 1900 7200 1900
+Wire Wire Line
+	7200 1700 6850 1700
+Wire Wire Line
+	1800 5550 2150 5550
+Wire Wire Line
+	2150 5350 1800 5350
+Wire Wire Line
+	6850 1800 7200 1800
+Wire Wire Line
+	6850 2000 7200 2000
+Wire Wire Line
+	6850 2200 7200 2200
+Wire Wire Line
+	5700 2550 6100 2550
+Wire Wire Line
+	7100 3050 7500 3050
+Wire Wire Line
+	3450 3150 3450 2950
+Wire Wire Line
+	3150 3550 3150 3800
+Connection ~ 3150 3550
+Wire Wire Line
+	3350 1900 3350 2050
+Wire Wire Line
+	3550 2050 3050 2050
+Connection ~ 3350 2050
+Wire Wire Line
+	1800 7150 2250 7150
+Wire Wire Line
+	1800 7250 2250 7250
+Wire Wire Line
+	3450 2950 3550 2950
+Wire Wire Line
+	1850 2650 3550 2650
+Wire Wire Line
+	2500 2750 2500 2550
+Connection ~ 2500 2550
+Wire Wire Line
+	2300 3300 2300 3000
+Wire Wire Line
+	2950 1550 3350 1550
+Connection ~ 2950 1550
+Wire Wire Line
+	3350 1550 3350 1650
+Wire Wire Line
+	1800 7050 2250 7050
+Connection ~ 3000 3550
+Wire Wire Line
+	1800 7350 2250 7350
+Wire Wire Line
+	5700 3650 5800 3650
+Wire Wire Line
+	5800 3650 5800 3550
+Connection ~ 5800 3550
+Wire Wire Line
+	2150 4200 1800 4200
+Wire Wire Line
+	2150 4400 1800 4400
+Wire Wire Line
+	2150 4600 1800 4600
+Wire Wire Line
+	2150 4800 1800 4800
+Wire Wire Line
+	1800 6000 2150 6000
+Wire Wire Line
+	1800 6200 2150 6200
+Wire Wire Line
+	1800 6400 2150 6400
+Wire Wire Line
+	5700 3050 6850 3050
+Wire Wire Line
+	6700 3700 6700 3050
+Connection ~ 6700 3050
+Wire Wire Line
+	6600 3600 6700 3600
+Connection ~ 6700 3600
+Wire Wire Line
+	6450 4300 6450 4050
+Connection ~ 6450 4050
+Wire Wire Line
+	5900 5200 5900 5750
+Connection ~ 5900 5500
+Wire Wire Line
+	6000 5300 5750 5300
+Wire Wire Line
+	5500 5000 5150 5000
+Wire Wire Line
+	6750 5200 6850 5200
+Wire Wire Line
+	6850 5200 6850 5100
+Wire Wire Line
+	6850 5100 7200 5100
+Wire Wire Line
+	6750 5500 7050 5500
+Wire Wire Line
+	7050 5500 7050 5300
+Wire Wire Line
+	7050 5300 7200 5300
+Wire Wire Line
+	7100 6800 7200 6800
+Wire Wire Line
+	6650 6650 6650 6800
+Connection ~ 6650 6800
+Wire Wire Line
+	3350 3050 3450 3050
+Connection ~ 3450 3050
+Wire Wire Line
+	3000 2850 3000 3550
+Text Label 2750 3350 0    60   ~ 0
+A0
+Text Label 6650 6100 3    60   ~ 0
+GND
+$Comp
+L RESISTOR R6
+U 1 1 4EDF7D16
+P 6650 6650
+F 0 "R6" V 6825 6850 71  0000 C CNN
+F 1 "1 к" V 6700 6850 71  0000 C CNN
+	1    6650 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SHOTTKY_DIODE VD1
+U 1 1 4EDF7CA0
+P 6800 6800
+F 0 "VD1" H 6950 7050 71  0000 C CNN
+F 1 "BAS216" H 6950 6950 71  0000 C CNN
+	1    6800 6800
+	1    0    0    -1  
+$EndComp
+Text Label 6100 6800 0    60   ~ 0
+PD6
+Text Label 6100 6900 0    60   ~ 0
+GND
+$Comp
+L PIN_M_2 XP7
+U 1 1 4EDF7C72
+P 7200 6800
+F 0 "XP7" H 7350 7000 50  0000 L BNN
+F 1 "WF-2" H 7300 6900 50  0000 L BNN
+F 2 "~" H 7650 6950 50  0001 C CNN
+	1    7200 6800
+	1    0    0    -1  
+$EndComp
+Text Label 5150 5300 0    60   ~ 0
+PD5
+Text Label 5150 5000 0    60   ~ 0
+PD4
+Text Label 2150 6500 2    60   ~ 0
+A5
+Text Label 2150 6400 2    60   ~ 0
+A4
+Text Label 2150 6300 2    60   ~ 0
+A3
+Text Label 2150 6200 2    60   ~ 0
+A2
+Text Label 2150 6100 2    60   ~ 0
+A1
+Text Label 2150 6000 2    60   ~ 0
+A0
+Text Label 2150 4800 2    60   ~ 0
+PD7
+Text Label 2150 4700 2    60   ~ 0
+PD6
+Text Label 2150 4600 2    60   ~ 0
+PD5
+Text Label 2150 4500 2    60   ~ 0
+PD4
+Text Label 2150 4400 2    60   ~ 0
+PD3
+Text Label 2150 4300 2    60   ~ 0
+PD2
+Text Label 2150 4200 2    60   ~ 0
+TXD
+Text Label 2150 4100 2    60   ~ 0
+RXD
+$Comp
+L PIN_M_4 XP6
+U 1 1 4EDCA7AD
+P 7200 5000
+F 0 "XP6" H 7350 5200 50  0000 L BNN
+F 1 "WF-4" H 7300 5100 50  0000 L BNN
+F 2 "~" H 7650 5150 50  0001 C CNN
+	1    7200 5000
+	1    0    0    -1  
+$EndComp
+Text Label 5900 5750 1    60   ~ 0
+GND
+$Comp
+L RESISTOR R5
+U 1 1 4EDCA6FB
+P 5500 5300
+F 0 "R5" H 5500 5400 71  0000 C CNN
+F 1 "470" H 5750 5400 71  0000 C CNN
+	1    5500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR R4
+U 1 1 4EDCA6EA
+P 5500 5000
+F 0 "R4" H 5500 5100 71  0000 C CNN
+F 1 "470" H 5750 5100 71  0000 C CNN
+	1    5500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP521-2 DA1
+U 1 1 4EDCA680
+P 6000 5000
+F 0 "DA1" H 6350 5250 60  0000 C CNN
+F 1 "TLP521-2" H 6350 5150 60  0000 C CNN
+	1    6000 5000
+	1    0    0    -1  
+$EndComp
+Text Label 6450 4300 1    60   ~ 0
+GND
+$Comp
+L CAPITORS C8
+U 1 1 4ED79055
+P 6200 3700
+F 0 "C8" V 6300 3925 71  0000 C CNN
+F 1 "~" V 6425 3925 71  0000 C CNN
+	1    6200 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L CAPITORS C9
+U 1 1 4ED79054
+P 6700 3700
+F 0 "C9" V 6800 3925 71  0000 C CNN
+F 1 "~" V 6925 3925 71  0000 C CNN
+	1    6700 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L QUARTZ_RESONATOR Z1
+U 1 1 4ED78F56
+P 6300 3600
+F 0 "Z1" H 6450 3850 71  0000 C CNN
+F 1 "~" H 6450 3850 71  0000 C CNN
+	1    6300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR R3
+U 1 1 4ED78EB4
+P 6850 3050
+F 0 "R3" H 6850 3150 71  0000 C CNN
+F 1 "0" H 7100 3150 71  0000 C CNN
+	1    6850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIN_M_6 XP?
+U 1 1 4ED78CD0
+P 1800 6000
+AR Path="/4EB912B4" Ref="XP?"  Part="1" 
+AR Path="/4ED78CD0" Ref="XP4"  Part="1" 
+F 0 "XP4" H 1950 6200 50  0000 L BNN
+F 1 "PLS-6" H 1850 6100 50  0000 L BNN
+F 2 "~" H 2250 6150 50  0001 C CNN
+	1    1800 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PIN_M_8 XP?
+U 1 1 4ED777B2
+P 1800 4100
+AR Path="/4EB912BA" Ref="XP?"  Part="1" 
+AR Path="/4EB91375" Ref="XP?"  Part="1" 
+AR Path="/4ED77776" Ref="XP?"  Part="1" 
+AR Path="/4ED777B2" Ref="XP2"  Part="1" 
+F 0 "XP2" H 1950 4300 50  0000 L BNN
+F 1 "PLS-8" H 1900 4200 50  0000 L BNN
+F 2 "~" H 2250 4250 50  0001 C CNN
+	1    1800 4100
+	-1   0    0    -1  
+$EndComp
+Text Label 2250 6850 2    60   ~ 0
+GND
+Text Label 2250 7350 2    60   ~ 0
++5V
+Text Label 6100 3550 2    60   ~ 0
+GND
+$Comp
+L CAPITORS C6
+U 1 1 4EC11642
+P 3450 3800
+F 0 "C6" V 3550 4025 71  0000 C CNN
+F 1 "0.1 мк" V 3675 4025 71  0000 C CNN
+	1    3450 3800
+	0    1    1    0   
+$EndComp
+Text Label 3450 4400 1    60   ~ 0
+GND
+Text Label 6100 2750 2    60   ~ 0
+PB3
+Text Label 6100 2850 2    60   ~ 0
+PB4
+Text Label 2750 3250 0    60   ~ 0
+PB0
+Text Label 6100 2650 2    60   ~ 0
+PB2
+$Comp
+L RESISTOR R1
+U 1 1 4EC111E1
+P 3100 2850
+F 0 "R1" H 3100 2950 71  0000 C CNN
+F 1 "1 k" H 3300 2950 71  0000 C CNN
+	1    3100 2850
+	1    0    0    -1  
+$EndComp
+Text Label 2250 7050 2    60   ~ 0
+REF_IN-
+Text Label 2250 6950 2    60   ~ 0
+REF_IN+
+Text Label 2300 3300 1    60   ~ 0
+GND
+Text Label 1850 2650 0    60   ~ 0
+REF_IN+
+Text Label 2100 2550 0    60   ~ 0
+REF_IN-
+$Comp
+L CAPITORS C3
+U 1 1 4EC10EB4
+P 2300 2750
+F 0 "C3" V 2400 2975 71  0000 C CNN
+F 1 "0.1 мк" V 2525 2975 71  0000 C CNN
+	1    2300 2750
+	0    -1   1    0   
+$EndComp
+$Comp
+L CAPITORS C4
+U 1 1 4EC10E8A
+P 2500 2750
+F 0 "C4" V 2600 2975 71  0000 C CNN
+F 1 "0.1 мк" V 2725 2975 71  0000 C CNN
+	1    2500 2750
+	0    1    1    0   
+$EndComp
+Text Label 2650 2150 0    60   ~ 0
+AIN1-
+Text Label 2250 7250 2    60   ~ 0
+AIN1-
+Text Label 2250 7150 2    60   ~ 0
+AIN1+
+Text Label 3050 2050 0    60   ~ 0
+AIN1+
+$Comp
+L PIN_M_6 XP5
+U 1 1 4EC10C5C
+P 1800 6850
+F 0 "XP5" H 1950 7050 50  0000 L BNN
+F 1 "WF-6" H 1900 6950 50  0000 L BNN
+F 2 "~" H 2250 7000 50  0001 C CNN
+	1    1800 6850
+	-1   0    0    -1  
+$EndComp
+Text Label 2950 1300 3    60   ~ 0
+GND
+$Comp
+L CAPITORS C1
+U 1 1 4EC1089C
+P 2950 1650
+F 0 "C1" V 3050 1875 71  0000 C CNN
+F 1 "0.1 мк" V 3175 1875 71  0000 C CNN
+	1    2950 1650
+	0    -1   1    0   
+$EndComp
+$Comp
+L CAPITORS C2
+U 1 1 4EC10899
+P 3350 1650
+F 0 "C2" V 3450 1875 71  0000 C CNN
+F 1 "0.1 мк" V 3575 1875 71  0000 C CNN
+	1    3350 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L CAPITORS C5
+U 1 1 4EC10828
+P 3150 3800
+F 0 "C5" V 3250 4025 71  0000 C CNN
+F 1 "0.1 мк" V 3375 4025 71  0000 C CNN
+	1    3150 3800
+	0    -1   1    0   
+$EndComp
+Text Label 2750 3550 0    60   ~ 0
++5V
+Text Label 5850 1350 3    60   ~ 0
+GND
+$Comp
+L CAPITORS C7
+U 1 1 4EC106B6
+P 5850 1600
+F 0 "C7" V 5950 1900 71  0000 C CNN
+F 1 "0.1 мк" V 6050 1900 71  0000 C CNN
+	1    5850 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L RESISTOR R2
+U 1 1 4EC104CC
+P 3100 3050
+F 0 "R2" H 3100 2925 71  0000 C CNN
+F 1 "1 k" H 3300 2925 71  0000 C CNN
+	1    3100 3050
+	1    0    0    -1  
+$EndComp
+Text Label 7500 3050 2    60   ~ 0
+PB1
+Text Label 6100 2550 2    60   ~ 0
+PB5
+$Comp
+L AD7730 DD1
+U 1 1 4EC100C5
+P 4100 1950
+F 0 "DD1" H 4600 2100 60  0000 C CNN
+F 1 "AD7730" H 4600 2000 60  0000 C CNN
+	1    4100 1950
+	1    0    0    -1  
+$EndComp
+Text Label 6850 2000 0    60   ~ 0
+PB3
+Text Label 6850 2100 0    60   ~ 0
+PB4
+Text Label 6850 2200 0    60   ~ 0
+PB5
+Text Label 2150 5350 2    60   ~ 0
++5V
+Text Label 2150 5550 2    60   ~ 0
+GND
+Text Label 6850 1900 0    60   ~ 0
+PB2
+Text Label 6850 1800 0    60   ~ 0
+PB1
+Text Label 6850 1700 0    60   ~ 0
+PB0
+$Comp
+L PIN_M_8 XP?
+U 1 1 4EB91375
+P 7200 1700
+AR Path="/4EB912BA" Ref="XP?"  Part="1" 
+AR Path="/4EB91375" Ref="XP1"  Part="1" 
+F 0 "XP1" H 7350 1900 50  0000 L BNN
+F 1 "PLS-8" H 7300 1800 50  0000 L BNN
+F 2 "~" H 7650 1850 50  0001 C CNN
+	1    7200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIN_M_6 XP3
+U 1 1 4EB912B4
+P 1800 5150
+F 0 "XP3" H 1950 5350 50  0000 L BNN
+F 1 "PLS-6" H 1850 5250 50  0000 L BNN
+F 2 "~" H 2250 5300 50  0001 C CNN
+	1    1800 5150
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,197 @@
+# EESchema Netlist Version 1.1 created  Thu 08 Dec 2011 18:16:30 MSK
+(
+ ( /4EB92A26 $noname  R3 1_k {Lib=RESISTOR}
+  (    1 /PC2 )
+  (    2 /+5V )
+ )
+ ( /4EE0A37A $noname  XP7 IDC-10MS {Lib=PIN_M_10}
+  (    1 /PD5 )
+  (    2 /+5V )
+  (    3 /PD6 )
+  (    4 /+5V )
+  (    5 /PD7 )
+  (    6 /+5V )
+  (    7 /PC1 )
+  (    8 /GND )
+  (    9 /PC0 )
+  (   10 /GND )
+ )
+ ( /4EB92A30 $noname  R6 1_k {Lib=RESISTOR}
+  (    1 /+5V )
+  (    2 /PC5 )
+ )
+ ( /4EB92A44 $noname  R4 1_k {Lib=RESISTOR}
+  (    1 /+5V )
+  (    2 /PC3 )
+ )
+ ( /4EB92A3F $noname  R5 1_k {Lib=RESISTOR}
+  (    1 /+5V )
+  (    2 /PC4 )
+ )
+ ( /4EB92A16 $noname  R2 1_k {Lib=RESISTOR}
+  (    1 /PC1 )
+  (    2 /+5V )
+ )
+ ( /4EB92A07 $noname  R1 1_k {Lib=RESISTOR}
+  (    1 /PC0 )
+  (    2 /+5V )
+ )
+ ( /4EB9292E $noname  XP8 WF-7 {Lib=PIN_M_7}
+  (    1 /PC0 )
+  (    2 /PC1 )
+  (    3 /PC2 )
+  (    4 /PC3 )
+  (    5 /PC4 )
+  (    6 /PC5 )
+  (    7 /GND )
+ )
+ ( /4EB927BF $noname  XP2 PBS-8 {Lib=PIN_M_8}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 /PD5 )
+  (    7 /PD6 )
+  (    8 /PD7 )
+ )
+ ( /4EB923E8 $noname  XP6 IDC-10MS {Lib=PIN_M_10}
+  (    1 /PB0 )
+  (    2 /+5V )
+  (    3 /PB1 )
+  (    4 /+5V )
+  (    5 /PB2 )
+  (    6 /+5V )
+  (    7 /PC3 )
+  (    8 /GND )
+  (    9 /PC2 )
+  (   10 /GND )
+ )
+ ( /4EB922AA $noname  XP5 IDC-10MS {Lib=PIN_M_10}
+  (    1 /PB3 )
+  (    2 /+5V )
+  (    3 /PB4 )
+  (    4 /+5V )
+  (    5 /PB5 )
+  (    6 /+5V )
+  (    7 /PC5 )
+  (    8 /GND )
+  (    9 /PC4 )
+  (   10 /GND )
+ )
+ ( /4EB91376 $noname  XP4 PBS-6 {Lib=PIN_M_6}
+  (    1 /PC0 )
+  (    2 /PC1 )
+  (    3 /PC2 )
+  (    4 /PC3 )
+  (    5 /PC4 )
+  (    6 /PC5 )
+ )
+ ( /4EB91375 $noname  XP1 PBS-8 {Lib=PIN_M_8}
+  (    1 /PB0 )
+  (    2 /PB1 )
+  (    3 /PB2 )
+  (    4 /PB3 )
+  (    5 /PB4 )
+  (    6 /PB5 )
+  (    7 /GND )
+  (    8 ? )
+ )
+ ( /4EB912B4 $noname  XP3 PBS-6 {Lib=PIN_M_6}
+  (    1 ? )
+  (    2 ? )
+  (    3 /+5V )
+  (    4 /GND )
+  (    5 /GND )
+  (    6 ? )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "/+5V" "+5V"
+ XP5 6
+ XP5 4
+ XP5 2
+ XP6 6
+ XP6 4
+ XP6 2
+ XP3 3
+ R6 1
+ R3 2
+ R4 1
+ R5 1
+ R2 2
+ R1 2
+ XP7 2
+ XP7 4
+ XP7 6
+Net 3 "/PD5" "PD5"
+ XP2 6
+ XP7 1
+Net 6 "/PD7" "PD7"
+ XP7 5
+ XP2 8
+Net 7 "/PD6" "PD6"
+ XP2 7
+ XP7 3
+Net 8 "/PC5" "PC5"
+ R6 2
+ XP5 7
+ XP8 6
+ XP4 6
+Net 9 "/PC4" "PC4"
+ XP5 9
+ XP8 5
+ R5 2
+ XP4 5
+Net 10 "/PC3" "PC3"
+ R4 2
+ XP8 4
+ XP4 4
+ XP6 7
+Net 11 "/PC2" "PC2"
+ XP6 9
+ R3 1
+ XP8 3
+ XP4 3
+Net 12 "/PB2" "PB2"
+ XP1 3
+ XP6 5
+Net 13 "/PB3" "PB3"
+ XP5 1
+ XP1 4
+Net 14 "/PB4" "PB4"
+ XP1 5
+ XP5 3
+Net 15 "/PB5" "PB5"
+ XP1 6
+ XP5 5
+Net 20 "/PB0" "PB0"
+ XP6 1
+ XP1 1
+Net 21 "/PB1" "PB1"
+ XP6 3
+ XP1 2
+Net 22 "/PC1" "PC1"
+ XP8 2
+ R2 1
+ XP4 2
+ XP7 7
+Net 23 "/PC0" "PC0"
+ XP4 1
+ XP8 1
+ R1 1
+ XP7 9
+Net 24 "/GND" "GND"
+ XP6 8
+ XP5 10
+ XP7 10
+ XP6 10
+ XP7 8
+ XP1 7
+ XP5 8
+ XP8 7
+ XP3 5
+ XP3 4
+}
+#End

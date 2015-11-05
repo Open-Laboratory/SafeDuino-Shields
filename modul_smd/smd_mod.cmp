@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPCB (2010-09-07 BZR 2479)-unstable date = Thu 08 Dec 2011 16:47:24 MSK
+
+BeginCmp
+TimeStamp = /4EB92A07;
+Reference = R1;
+ValeurCmp = 1_k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB92A16;
+Reference = R2;
+ValeurCmp = 1_k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB92A26;
+Reference = R3;
+ValeurCmp = 1_k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB92A44;
+Reference = R4;
+ValeurCmp = 1_k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB92A3F;
+Reference = R5;
+ValeurCmp = 1_k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB92A30;
+Reference = R6;
+ValeurCmp = 1_k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB91375;
+Reference = XP1;
+ValeurCmp = PBS-8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB927BF;
+Reference = XP2;
+ValeurCmp = PBS-8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB912B4;
+Reference = XP3;
+ValeurCmp = PBS-6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB91376;
+Reference = XP4;
+ValeurCmp = PBS-6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB922AA;
+Reference = XP5;
+ValeurCmp = IDC-8MS;
+IdModule  = IDC-10MS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB923E8;
+Reference = XP6;
+ValeurCmp = IDC-8MS;
+IdModule  = IDC-10MS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE0A37A;
+Reference = XP7;
+ValeurCmp = IDC-8MS;
+IdModule  = IDC-10MS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB9292E;
+Reference = XP8;
+ValeurCmp = WF-7;
+IdModule  = SIL-7;
+EndCmp
+
+EndListe
