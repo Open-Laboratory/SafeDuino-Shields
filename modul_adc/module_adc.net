@@ -1,280 +1,426 @@
-# EESchema Netlist Version 1.1 created  Thu 03 Apr 2014 16:12:19 MSK
-(
- ( /4EDF7D16 $noname  R6 1_к {Lib=RESISTOR}
-  (    1 /PD6 )
-  (    2 /GND )
- )
- ( /4EDF7CA0 $noname  VD1 BAS216 {Lib=SHOTTKY_DIODE}
-  (    1 /PD6 )
-  (    2 N-000042 )
- )
- ( /4EDF7C72 $noname  XP7 WF-2 {Lib=PIN_M_2}
-  (    1 N-000042 )
-  (    2 /GND )
- )
- ( /4EDCA7AD $noname  XP6 WF-4 {Lib=PIN_M_4}
-  (    1 N-000015 )
-  (    2 N-000006 )
-  (    3 N-000016 )
-  (    4 N-000005 )
- )
- ( /4EDCA6FB $noname  R5 470 {Lib=RESISTOR}
-  (    1 /PD5 )
-  (    2 N-000017 )
- )
- ( /4EDCA6EA $noname  R4 470 {Lib=RESISTOR}
-  (    1 /PD4 )
-  (    2 N-000018 )
- )
- ( /4EDCA680 $noname  DA1 TLP521-2 {Lib=TLP521-2}
-  (    1 N-000018 )
-  (    2 /GND )
-  (    3 N-000017 )
-  (    4 /GND )
-  (    5 N-000005 )
-  (    6 N-000016 )
-  (    7 N-000006 )
-  (    8 N-000015 )
- )
- ( /4ED79055 $noname  C8 ~ {Lib=CAPITORS}
-  (    1 N-000041 )
-  (    2 /GND )
- )
- ( /4ED79054 $noname  C9 ~ {Lib=CAPITORS}
-  (    1 N-000046 )
-  (    2 /GND )
- )
- ( /4ED78F56 $noname  Z1 ~ {Lib=QUARTZ_RESONATOR}
-  (    1 N-000041 )
-  (    2 N-000046 )
- )
- ( /4ED78EB4 $noname  R3 0 {Lib=RESISTOR}
-  (    1 N-000046 )
-  (    2 /PB1 )
- )
- ( /4ED78CD0 $noname  XP4 PLS-6 {Lib=PIN_M_6}
-  (    1 /A0 )
-  (    2 ? )
-  (    3 ? )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
- )
- ( /4ED777B2 $noname  XP2 PLS-8 {Lib=PIN_M_8}
-  (    1 ? )
-  (    2 ? )
-  (    3 ? )
-  (    4 ? )
-  (    5 /PD4 )
-  (    6 /PD5 )
-  (    7 /PD6 )
-  (    8 ? )
- )
- ( /4EC11642 $noname  C6 0.1_мк {Lib=CAPITORS}
-  (    1 /+5V )
-  (    2 /GND )
- )
- ( /4EC111E1 $noname  R1 1_k {Lib=RESISTOR}
-  (    1 /+5V )
-  (    2 N-000020 )
- )
- ( /4EC10EB4 $noname  C3 0.1_мк {Lib=CAPITORS}
-  (    1 /REF_IN+ )
-  (    2 /GND )
- )
- ( /4EC10E8A $noname  C4 0.1_мк {Lib=CAPITORS}
-  (    1 /REF_IN- )
-  (    2 /GND )
- )
- ( /4EC10C5C $noname  XP5 WF-6 {Lib=PIN_M_6}
-  (    1 /GND )
-  (    2 /REF_IN+ )
-  (    3 /REF_IN- )
-  (    4 /AIN1+ )
-  (    5 /AIN1- )
-  (    6 /+5V )
- )
- ( /4EC1089C $noname  C1 0.1_мк {Lib=CAPITORS}
-  (    1 /GND )
-  (    2 /AIN1- )
- )
- ( /4EC10899 $noname  C2 0.1_мк {Lib=CAPITORS}
-  (    1 /GND )
-  (    2 /AIN1+ )
- )
- ( /4EC10828 $noname  C5 0.1_мк {Lib=CAPITORS}
-  (    1 /+5V )
-  (    2 /GND )
- )
- ( /4EC106B6 $noname  C7 0.1_мк {Lib=CAPITORS}
-  (    1 /GND )
-  (    2 N-000038 )
- )
- ( /4EC104CC $noname  R2 1_k {Lib=RESISTOR}
-  (    1 /+5V )
-  (    2 N-000039 )
- )
- ( /4EC100C5 $noname  DD1 AD7730 {Lib=AD7730}
-  (    1 /PB5 )
-  (    2 N-000046 )
-  (    3 N-000041 )
-  (    4 N-000039 )
-  (    5 N-000039 )
-  (    6 /A0 )
-  (    7 N-000038 )
-  (    8 /GND )
-  (    9 /+5V )
-  (   10 /AIN1+ )
-  (   11 /AIN1- )
-  (   12 ? )
-  (   13 ? )
-  (   14 /REF_IN+ )
-  (   15 /REF_IN- )
-  (   16 ? )
-  (   17 ? )
-  (   18 N-000020 )
-  (   19 /PB2 )
-  (   20 /PB0 )
-  (   21 /PB4 )
-  (   22 /PB3 )
-  (   23 /+5V )
-  (   24 /GND )
- )
- ( /4EB91375 $noname  XP1 PLS-8 {Lib=PIN_M_8}
-  (    1 /PB0 )
-  (    2 /PB1 )
-  (    3 /PB2 )
-  (    4 /PB3 )
-  (    5 /PB4 )
-  (    6 /PB5 )
-  (    7 ? )
-  (    8 ? )
- )
- ( /4EB912B4 $noname  XP3 PLS-6 {Lib=PIN_M_6}
-  (    1 ? )
-  (    2 ? )
-  (    3 /+5V )
-  (    4 /GND )
-  (    5 /GND )
-  (    6 ? )
- )
-)
-*
-{ Pin List by Nets
-Net 3 "/REF_IN+" "REF_IN+"
- DD1 14
- XP5 2
- C3 1
-Net 5 "" ""
- XP6 4
- DA1 5
-Net 6 "" ""
- XP6 2
- DA1 7
-Net 10 "/PD4" "PD4"
- R4 1
- XP2 5
-Net 11 "/PD5" "PD5"
- R5 1
- XP2 6
-Net 12 "/PD6" "PD6"
- R6 1
- VD1 1
- XP2 7
-Net 14 "/A0" "A0"
- DD1 6
- XP4 1
-Net 15 "" ""
- DA1 8
- XP6 1
-Net 16 "" ""
- DA1 6
- XP6 3
-Net 17 "" ""
- DA1 3
- R5 2
-Net 18 "" ""
- R4 2
- DA1 1
-Net 19 "/PB2" "PB2"
- XP1 3
- DD1 19
-Net 20 "" ""
- R1 2
- DD1 18
-Net 24 "/PB3" "PB3"
- XP1 4
- DD1 22
-Net 26 "/PB4" "PB4"
- DD1 21
- XP1 5
-Net 27 "/PB5" "PB5"
- XP1 6
- DD1 1
-Net 33 "/PB0" "PB0"
- DD1 20
- XP1 1
-Net 34 "/PB1" "PB1"
- R3 2
- XP1 2
-Net 35 "/+5V" "+5V"
- DD1 9
- C5 1
- C6 1
- XP5 6
- R2 1
- XP3 3
- R1 1
- DD1 23
-Net 36 "/AIN1-" "AIN1-"
- DD1 11
- XP5 5
- C1 2
-Net 37 "/REF_IN-" "REF_IN-"
- C4 1
- XP5 3
- DD1 15
-Net 38 "" ""
- C7 2
- DD1 7
-Net 39 "" ""
- DD1 5
- DD1 4
- R2 2
-Net 41 "" ""
- C8 1
- Z1 1
- DD1 3
-Net 42 "" ""
- VD1 2
- XP7 1
-Net 45 "/AIN1+" "AIN1+"
- XP5 4
- C2 2
- DD1 10
-Net 46 "" ""
- C9 1
- Z1 2
- R3 1
- DD1 2
-Net 47 "/GND" "GND"
- DD1 8
- C3 2
- C4 2
- C7 1
- XP3 4
- DD1 24
- XP3 5
- C5 2
- C2 1
- C9 2
- C6 2
- XP7 2
- C1 1
- R6 2
- C8 2
- DA1 4
- DA1 2
- XP5 1
-}
-#End
+(export (version D)
+  (design
+    (source /home/dnvetrov/git/Open-Laboratory/SafeDuino-Shields/modul_adc/module_adc.sch)
+    (date "Fri 06 Nov 2015 18:36:23 MSK")
+    (tool "eeschema (2013-jul-07)-stable"))
+  (components
+    (comp (ref R6)
+      (value "1 к")
+      (libsource (lib LFresistor) (part RESISTOR))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EDF7D16))
+    (comp (ref VD1)
+      (value BAS216)
+      (libsource (lib LFdiod) (part SHOTTKY_DIODE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EDF7CA0))
+    (comp (ref XP7)
+      (value WF-2)
+      (libsource (lib LFconnectors) (part PIN_M_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EDF7C72))
+    (comp (ref XP6)
+      (value WF-4)
+      (libsource (lib LFconnectors) (part PIN_M_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EDCA7AD))
+    (comp (ref R5)
+      (value 470)
+      (libsource (lib LFresistor) (part RESISTOR))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EDCA6FB))
+    (comp (ref R4)
+      (value 470)
+      (libsource (lib LFresistor) (part RESISTOR))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EDCA6EA))
+    (comp (ref DA1)
+      (value TLP521-2)
+      (libsource (lib LFcomponents) (part TLP521-2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EDCA680))
+    (comp (ref C8)
+      (value "12 п")
+      (libsource (lib LFcapitors) (part CAPITORS))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4ED79055))
+    (comp (ref C9)
+      (value "12 п")
+      (libsource (lib LFcapitors) (part CAPITORS))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4ED79054))
+    (comp (ref Z1)
+      (value "2.4576 МГц")
+      (libsource (lib LFcomponents) (part QUARTZ_RESONATOR))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4ED78F56))
+    (comp (ref R3)
+      (value 0)
+      (libsource (lib LFresistor) (part RESISTOR))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4ED78EB4))
+    (comp (ref XP4)
+      (value PLS-6)
+      (libsource (lib LFconnectors) (part PIN_M_6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4ED78CD0))
+    (comp (ref XP2)
+      (value PLS-8)
+      (libsource (lib LFconnectors) (part PIN_M_8))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4ED777B2))
+    (comp (ref C6)
+      (value "0.1 мк")
+      (libsource (lib LFcapitors) (part CAPITORS))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC11642))
+    (comp (ref R1)
+      (value "1 к")
+      (libsource (lib LFresistor) (part RESISTOR))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC111E1))
+    (comp (ref C3)
+      (value "0.1 мк")
+      (libsource (lib LFcapitors) (part CAPITORS))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC10EB4))
+    (comp (ref C4)
+      (value "0.1 мк")
+      (libsource (lib LFcapitors) (part CAPITORS))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC10E8A))
+    (comp (ref XP5)
+      (value WF-6)
+      (libsource (lib LFconnectors) (part PIN_M_6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC10C5C))
+    (comp (ref C1)
+      (value "0.1 мк")
+      (libsource (lib LFcapitors) (part CAPITORS))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC1089C))
+    (comp (ref C2)
+      (value "0.1 мк")
+      (libsource (lib LFcapitors) (part CAPITORS))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC10899))
+    (comp (ref C5)
+      (value "0.1 мк")
+      (libsource (lib LFcapitors) (part CAPITORS))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC10828))
+    (comp (ref C7)
+      (value "0.1 мк")
+      (libsource (lib LFcapitors) (part CAPITORS))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC106B6))
+    (comp (ref R2)
+      (value "1 к")
+      (libsource (lib LFresistor) (part RESISTOR))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC104CC))
+    (comp (ref DD1)
+      (value AD7730)
+      (libsource (lib LFcomponents) (part AD7730))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC100C5))
+    (comp (ref XP1)
+      (value PLS-8)
+      (libsource (lib LFconnectors) (part PIN_M_8))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EB91375))
+    (comp (ref XP3)
+      (value PLS-6)
+      (libsource (lib LFconnectors) (part PIN_M_6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EB912B4)))
+  (libparts
+    (libpart (lib LFcapitors) (part CAPITORS)
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CAPITORS))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib LFcomponents) (part AD7730)
+      (fields
+        (field (name Reference) DD)
+        (field (name Value) AD7730)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name SCLK) (type input))
+        (pin (num 2) (name MCLK_IN) (type input))
+        (pin (num 3) (name MCLK_OUT) (type input))
+        (pin (num 4) (name POL) (type input))
+        (pin (num 5) (name ~SYNC) (type input))
+        (pin (num 6) (name ~RESET) (type input))
+        (pin (num 7) (name Vbias) (type input))
+        (pin (num 8) (name AGND) (type input))
+        (pin (num 9) (name AVdd) (type input))
+        (pin (num 10) (name "AIN1(+)") (type input))
+        (pin (num 11) (name "AIN1(-)") (type input))
+        (pin (num 12) (name "AIN2(+)/D1") (type input))
+        (pin (num 13) (name "AIN2(-)/D0") (type input))
+        (pin (num 14) (name "REF_IN(+)") (type power_out))
+        (pin (num 15) (name "REF_IN(-)") (type input))
+        (pin (num 16) (name ACX) (type input))
+        (pin (num 17) (name ~ACX) (type input))
+        (pin (num 18) (name ~STANDBY) (type power_out))
+        (pin (num 19) (name ~CS) (type input))
+        (pin (num 20) (name ~RDY) (type input))
+        (pin (num 21) (name DOUT) (type input))
+        (pin (num 22) (name DIN) (type power_out))
+        (pin (num 23) (name DVdd) (type input))
+        (pin (num 24) (name DGND) (type input))))
+    (libpart (lib LFcomponents) (part QUARTZ_RESONATOR)
+      (fields
+        (field (name Reference) Z)
+        (field (name Value) QUARTZ_RESONATOR)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib LFcomponents) (part TLP521-2)
+      (fields
+        (field (name Reference) DA)
+        (field (name Value) TLP521-2)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))
+        (pin (num 5) (name ~) (type passive))
+        (pin (num 6) (name ~) (type passive))
+        (pin (num 7) (name ~) (type passive))
+        (pin (num 8) (name ~) (type passive))))
+    (libpart (lib LFconnectors) (part PIN_M_2)
+      (fields
+        (field (name Reference) XP)
+        (field (name Value) PIN_M_2)
+        (field (name Footprint) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib LFconnectors) (part PIN_M_4)
+      (fields
+        (field (name Reference) XP)
+        (field (name Value) PIN_M_4)
+        (field (name Footprint) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))))
+    (libpart (lib LFconnectors) (part PIN_M_6)
+      (fields
+        (field (name Reference) XP)
+        (field (name Value) PIN_M_6)
+        (field (name Footprint) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))
+        (pin (num 5) (name ~) (type passive))
+        (pin (num 6) (name ~) (type passive))))
+    (libpart (lib LFconnectors) (part PIN_M_8)
+      (fields
+        (field (name Reference) XP)
+        (field (name Value) PIN_M_8)
+        (field (name Footprint) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))
+        (pin (num 5) (name ~) (type passive))
+        (pin (num 6) (name ~) (type passive))
+        (pin (num 7) (name ~) (type passive))
+        (pin (num 8) (name ~) (type passive))))
+    (libpart (lib LFresistor) (part RESISTOR)
+      (description "Ampli Op 3 state out")
+      (docs AmpliOp.sch)
+      (fields
+        (field (name Reference) R)
+        (field (name Value) RESISTOR)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib LFdiod) (part SHOTTKY_DIODE)
+      (fields
+        (field (name Reference) VD)
+        (field (name Value) SHOTTKY_DIODE))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
+  (libraries
+    (library (logical LFcomponents)
+      (uri ../../kicad-components/library_kicad/LFcomponents.lib))
+    (library (logical LFconnectors)
+      (uri ../../kicad-components/library_kicad/LFconnectors.lib))
+    (library (logical LFcapitors)
+      (uri ../../kicad-components/library_kicad/LFcapitors.lib))
+    (library (logical LFdiod)
+      (uri ../../kicad-components/library_kicad/LFdiod.lib))
+    (library (logical LFresistor)
+      (uri ../../kicad-components/library_kicad/LFresistor.lib)))
+  (nets
+    (net (code 1) (name /A5)
+      (node (ref XP4) (pin 6)))
+    (net (code 2) (name /A3)
+      (node (ref XP4) (pin 4)))
+    (net (code 3) (name /REF_IN+)
+      (node (ref C3) (pin 1))
+      (node (ref DD1) (pin 14))
+      (node (ref XP5) (pin 2)))
+    (net (code 4) (name /RXD)
+      (node (ref XP2) (pin 1)))
+    (net (code 5) (name "")
+      (node (ref XP6) (pin 4))
+      (node (ref DA1) (pin 5)))
+    (net (code 6) (name "")
+      (node (ref DA1) (pin 7))
+      (node (ref XP6) (pin 2)))
+    (net (code 7) (name /TXD)
+      (node (ref XP2) (pin 2)))
+    (net (code 8) (name /PD2)
+      (node (ref XP2) (pin 3)))
+    (net (code 9) (name /PD3)
+      (node (ref XP2) (pin 4)))
+    (net (code 10) (name /PD4)
+      (node (ref R4) (pin 1))
+      (node (ref XP2) (pin 5)))
+    (net (code 11) (name /PD5)
+      (node (ref XP2) (pin 6))
+      (node (ref R5) (pin 1)))
+    (net (code 12) (name /PD6)
+      (node (ref R6) (pin 1))
+      (node (ref XP2) (pin 7))
+      (node (ref VD1) (pin 1)))
+    (net (code 13) (name /PD7)
+      (node (ref XP2) (pin 8)))
+    (net (code 14) (name /A0)
+      (node (ref DD1) (pin 6))
+      (node (ref XP4) (pin 1)))
+    (net (code 15) (name "")
+      (node (ref XP6) (pin 1))
+      (node (ref DA1) (pin 8)))
+    (net (code 16) (name "")
+      (node (ref DA1) (pin 6))
+      (node (ref XP6) (pin 3)))
+    (net (code 17) (name "")
+      (node (ref R5) (pin 2))
+      (node (ref DA1) (pin 3)))
+    (net (code 18) (name "")
+      (node (ref DA1) (pin 1))
+      (node (ref R4) (pin 2)))
+    (net (code 19) (name /PB2)
+      (node (ref XP1) (pin 3))
+      (node (ref DD1) (pin 19)))
+    (net (code 20) (name "")
+      (node (ref DD1) (pin 18))
+      (node (ref R1) (pin 2)))
+    (net (code 21) (name "")
+      (node (ref DD1) (pin 17)))
+    (net (code 22) (name "")
+      (node (ref DD1) (pin 16)))
+    (net (code 23) (name "")
+      (node (ref DD1) (pin 13)))
+    (net (code 24) (name /PB3)
+      (node (ref DD1) (pin 22))
+      (node (ref XP1) (pin 4)))
+    (net (code 25) (name "")
+      (node (ref DD1) (pin 12)))
+    (net (code 26) (name /PB4)
+      (node (ref XP1) (pin 5))
+      (node (ref DD1) (pin 21)))
+    (net (code 27) (name /PB5)
+      (node (ref DD1) (pin 1))
+      (node (ref XP1) (pin 6)))
+    (net (code 28) (name "")
+      (node (ref XP3) (pin 6)))
+    (net (code 29) (name "")
+      (node (ref XP3) (pin 2)))
+    (net (code 30) (name "")
+      (node (ref XP3) (pin 1)))
+    (net (code 31) (name "")
+      (node (ref XP1) (pin 8)))
+    (net (code 32) (name "")
+      (node (ref XP1) (pin 7)))
+    (net (code 33) (name /PB0)
+      (node (ref DD1) (pin 20))
+      (node (ref XP1) (pin 1)))
+    (net (code 34) (name /PB1)
+      (node (ref R3) (pin 2))
+      (node (ref XP1) (pin 2)))
+    (net (code 35) (name /+5V)
+      (node (ref R2) (pin 1))
+      (node (ref DD1) (pin 23))
+      (node (ref XP3) (pin 3))
+      (node (ref XP5) (pin 6))
+      (node (ref C5) (pin 1))
+      (node (ref R1) (pin 1))
+      (node (ref C6) (pin 1))
+      (node (ref DD1) (pin 9)))
+    (net (code 36) (name /AIN1-)
+      (node (ref XP5) (pin 5))
+      (node (ref DD1) (pin 11))
+      (node (ref C1) (pin 2)))
+    (net (code 37) (name /REF_IN-)
+      (node (ref C4) (pin 1))
+      (node (ref DD1) (pin 15))
+      (node (ref XP5) (pin 3)))
+    (net (code 38) (name "")
+      (node (ref C7) (pin 2))
+      (node (ref DD1) (pin 7)))
+    (net (code 39) (name "")
+      (node (ref DD1) (pin 4))
+      (node (ref R2) (pin 2))
+      (node (ref DD1) (pin 5)))
+    (net (code 40) (name /A1)
+      (node (ref XP4) (pin 2)))
+    (net (code 41) (name "")
+      (node (ref DD1) (pin 3))
+      (node (ref Z1) (pin 1))
+      (node (ref C8) (pin 1)))
+    (net (code 42) (name "")
+      (node (ref VD1) (pin 2))
+      (node (ref XP7) (pin 1)))
+    (net (code 43) (name /A2)
+      (node (ref XP4) (pin 3)))
+    (net (code 44) (name /A4)
+      (node (ref XP4) (pin 5)))
+    (net (code 45) (name /AIN1+)
+      (node (ref C2) (pin 2))
+      (node (ref DD1) (pin 10))
+      (node (ref XP5) (pin 4)))
+    (net (code 46) (name "")
+      (node (ref R3) (pin 1))
+      (node (ref C9) (pin 1))
+      (node (ref Z1) (pin 2))
+      (node (ref DD1) (pin 2)))
+    (net (code 47) (name /GND)
+      (node (ref C7) (pin 1))
+      (node (ref XP7) (pin 2))
+      (node (ref R6) (pin 2))
+      (node (ref DA1) (pin 2))
+      (node (ref DD1) (pin 8))
+      (node (ref XP5) (pin 1))
+      (node (ref C1) (pin 1))
+      (node (ref C2) (pin 1))
+      (node (ref C5) (pin 2))
+      (node (ref XP3) (pin 4))
+      (node (ref XP3) (pin 5))
+      (node (ref DD1) (pin 24))
+      (node (ref DA1) (pin 4))
+      (node (ref C8) (pin 2))
+      (node (ref C9) (pin 2))
+      (node (ref C6) (pin 2))
+      (node (ref C3) (pin 2))
+      (node (ref C4) (pin 2)))))
