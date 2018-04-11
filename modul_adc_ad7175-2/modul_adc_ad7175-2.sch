@@ -280,12 +280,12 @@ $EndComp
 $Comp
 L RESISTOR R11
 U 1 1 5A7C8168
-P 1550 9100
-F 0 "R11" H 1550 9200 71  0000 C CNN
-F 1 "0" H 1800 9200 71  0000 C CNN
-F 2 "IWsmd_case:SMD0805" H 1550 9100 60  0001 C CNN
-F 3 "" H 1550 9100 60  0000 C CNN
-	1    1550 9100
+P 1650 6450
+F 0 "R11" H 1650 6550 71  0000 C CNN
+F 1 "0" H 1900 6550 71  0000 C CNN
+F 2 "IWsmd_case:SMD0805" H 1650 6450 60  0001 C CNN
+F 3 "" H 1650 6450 60  0000 C CNN
+	1    1650 6450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -407,9 +407,9 @@ Connection ~ 3650 1800
 Wire Wire Line
 	3900 2000 3800 2000
 Wire Wire Line
-	3800 2000 3800 2250
+	3800 2250 3800 2000
 Wire Wire Line
-	3800 2250 3100 2250
+	3100 2250 3800 2250
 Wire Wire Line
 	3100 2150 3100 2550
 Wire Wire Line
@@ -1117,13 +1117,13 @@ Wire Wire Line
 $Comp
 L PIN_M_3 XP5
 U 1 1 5AA14678
-P 1150 1800
-F 0 "XP5" H 1300 2000 50  0000 L BNN
-F 1 "WF-3" H 1250 1900 50  0000 L BNN
-F 2 "IWconnectors:WF-3" H 1600 1950 50  0001 C CNN
-F 3 "" H 1150 1800 60  0000 C CNN
-	1    1150 1800
-	-1   0    0    -1  
+P 1150 2000
+F 0 "XP5" H 1350 1550 50  0000 L BNN
+F 1 "WF-3" H 1300 1650 50  0000 L BNN
+F 2 "IWconnectors:WF-3" H 1600 2150 50  0001 C CNN
+F 3 "" H 1150 2000 60  0000 C CNN
+	1    1150 2000
+	-1   0    0    1   
 $EndComp
 Text Label 1600 1800 2    60   ~ 0
 VCC_REF
@@ -1371,7 +1371,7 @@ Wire Wire Line
 Text Label 1350 6500 2    60   ~ 0
 PB0
 Wire Wire Line
-	1100 6600 1350 6600
+	1100 6600 1450 6600
 Text Label 1350 6600 2    60   ~ 0
 PB1
 Text Label 1350 6700 2    60   ~ 0
@@ -1398,22 +1398,22 @@ Wire Wire Line
 	1100 8150 1350 8150
 Text Label 1350 8150 2    60   ~ 0
 PD6
-Text Label 2250 6650 2    60   ~ 0
+Text Label 2500 6650 2    60   ~ 0
 ~CS
-Text Label 2250 7250 2    60   ~ 0
+Text Label 2500 7250 2    60   ~ 0
 SCLK
-Text Label 2250 6850 2    60   ~ 0
+Text Label 2500 6850 2    60   ~ 0
 MOSI
-Text Label 2250 7050 2    60   ~ 0
+Text Label 2500 7050 2    60   ~ 0
 MISO
-Text Label 2400 9100 2    60   ~ 0
+Text Label 2500 6450 2    60   ~ 0
 ~SYNC~/ERR
 Wire Wire Line
-	1800 9100 2400 9100
+	1900 6450 2500 6450
 Wire Wire Line
-	1900 6650 2250 6650
+	1900 6650 2500 6650
 Wire Wire Line
-	1900 7250 2250 7250
+	1900 7250 2500 7250
 Wire Wire Line
 	1100 7000 1450 7000
 Wire Wire Line
@@ -1421,13 +1421,13 @@ Wire Wire Line
 Wire Wire Line
 	1450 7250 1650 7250
 Wire Wire Line
-	1900 7050 2250 7050
+	1900 7050 2500 7050
 Wire Wire Line
 	1500 6900 1500 7050
 Wire Wire Line
 	1500 7050 1650 7050
 Wire Wire Line
-	1900 6850 2250 6850
+	1900 6850 2500 6850
 Wire Wire Line
 	1550 6800 1550 6850
 Wire Wire Line
@@ -1523,5 +1523,9 @@ Text Label 1600 9500 0    60   ~ 0
 Wire Wire Line
 	6100 1450 6600 1450
 Wire Wire Line
-	1100 9100 1550 9100
+	1450 6600 1450 6450
+Wire Wire Line
+	1450 6450 1650 6450
+Wire Wire Line
+	1100 9100 1350 9100
 $EndSCHEMATC
