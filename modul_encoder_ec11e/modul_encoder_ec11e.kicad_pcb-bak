@@ -153,12 +153,12 @@
     (pad 1 thru_hole circle (at -1.5 1.434) (size 5 5) (drill 3.2) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module IWcomponents:ALPS_EC11_push (layer F.Cu) (tedit 5ADF23F3) (tstamp 5AD0DD50)
+  (module IWcomponents:ALPS_EC11_push (layer F.Cu) (tedit 5ADF2509) (tstamp 5AD0DD50)
     (at 140.556 90.01)
     (descr "8 pins DIL package, elliptical pads")
     (tags DIL)
     (path /5AD0DE0F)
-    (fp_text reference BR1 (at 5.969 6.858) (layer F.SilkS)
+    (fp_text reference BR1 (at -0.094 -10.254) (layer F.SilkS)
       (effects (font (size 1.778 1.143) (thickness 0.28575)))
     )
     (fp_text value ALPS_EC11E (at 0 10.795) (layer F.SilkS) hide

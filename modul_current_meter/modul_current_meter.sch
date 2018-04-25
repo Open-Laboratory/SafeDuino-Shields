@@ -1,0 +1,217 @@
+EESchema Schematic File Version 2
+LIBS:LFbutton
+LIBS:LFcapitors
+LIBS:LFcomponents
+LIBS:LFconnectors
+LIBS:LFdiod
+LIBS:LFpower
+LIBS:LFresistor
+LIBS:LFtransformator
+LIBS:LFtransistor
+LIBS:modul_current_meter-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ACS712 DA1
+U 1 1 5ADF4824
+P 4750 2800
+F 0 "DA1" H 5300 2950 60  0000 C CNN
+F 1 "ACS712ELCTR-20A-T" H 5300 2850 60  0000 C CNN
+F 2 "IWsmd_case:SOIC8" H 4750 2800 60  0001 C CNN
+F 3 "" H 4750 2800 60  0000 C CNN
+	1    4750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIN_M_3 XP1
+U 1 1 5ADF48FA
+P 7750 2800
+F 0 "XP1" H 7900 3000 50  0000 L BNN
+F 1 "WF-3" H 7800 2900 50  0000 L BNN
+F 2 "IWconnectors:WF-3" H 8200 2950 50  0001 C CNN
+F 3 "" H 7750 2800 60  0000 C CNN
+	1    7750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIN_F_2 XS1
+U 1 1 5ADF4B46
+P 3700 2900
+F 0 "XS1" H 3850 3100 50  0000 L BNN
+F 1 "DG126-5.0-02P-14" H 3500 3000 50  0000 L BNN
+F 2 "IWconnectors:DG126-5.0-02P-14" H 4150 3050 50  0001 C CNN
+F 3 "" H 3700 2900 60  0000 C CNN
+	1    3700 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PIN_F_2 XS2
+U 1 1 5ADF4BEC
+P 3700 3250
+F 0 "XS2" H 3850 3050 50  0000 L BNN
+F 1 "DG126-5.0-02P-14" H 3500 2950 50  0000 L BNN
+F 2 "IWconnectors:DG126-5.0-02P-14" H 4150 3400 50  0001 C CNN
+F 3 "" H 3700 3250 60  0000 C CNN
+	1    3700 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CAPITORS C1
+U 1 1 5ADF4EA4
+P 6400 3100
+F 0 "C1" H 6350 3200 71  0000 C CNN
+F 1 "1000 п" H 6850 3200 71  0000 C CNN
+F 2 "IWsmd_case:SMD0805" H 6400 3100 60  0001 C CNN
+F 3 "" H 6400 3100 60  0000 C CNN
+	1    6400 3100
+	1    0    0    -1  
+$EndComp
+Text Label 7050 3400 2    60   ~ 0
+GND
+$Comp
+L CAPITORS C2
+U 1 1 5ADF5040
+P 7200 3800
+F 0 "C2" H 7325 4075 71  0000 C CNN
+F 1 "0.1 мк" H 7325 3975 71  0000 C CNN
+F 2 "IWsmd_case:SMD0805" H 7200 3800 60  0001 C CNN
+F 3 "" H 7200 3800 60  0000 C CNN
+	1    7200 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAPITORS_ELECTROLYTIC C3
+U 1 1 5ADF50C0
+P 7650 3550
+F 0 "C3" H 7775 3825 71  0000 C CNN
+F 1 "10 мк" H 7775 3725 71  0000 C CNN
+F 2 "IWsmd_case:CASE_B" H 7650 3550 60  0001 C CNN
+F 3 "" H 7650 3550 60  0000 C CNN
+	1    7650 3550
+	0    -1   1    0   
+$EndComp
+Text Label 7200 4050 1    60   ~ 0
+GND
+Text Label 7650 4050 1    60   ~ 0
+GND
+Text Label 7900 3300 2    60   ~ 0
++5V
+Text Label 7500 3000 0    60   ~ 0
+GND
+Text Label 7500 2800 0    60   ~ 0
++5V
+Wire Wire Line
+	3700 2900 3800 2900
+Wire Wire Line
+	3800 2900 3800 3000
+Wire Wire Line
+	3700 3000 3800 3000
+Wire Wire Line
+	3800 3000 4350 3000
+Wire Wire Line
+	4350 3000 4450 3000
+Wire Wire Line
+	4350 3000 4350 2900
+Wire Wire Line
+	4350 2900 4450 2900
+Connection ~ 3800 3000
+Connection ~ 4350 3000
+Wire Wire Line
+	3700 3250 3800 3250
+Wire Wire Line
+	3800 3250 3800 3350
+Wire Wire Line
+	3700 3350 3800 3350
+Wire Wire Line
+	3800 3350 4350 3350
+Wire Wire Line
+	4350 3350 4450 3350
+Wire Wire Line
+	4450 3250 4350 3250
+Wire Wire Line
+	4350 3250 4350 3350
+Connection ~ 3800 3350
+Connection ~ 4350 3350
+Wire Wire Line
+	6200 3100 6400 3100
+Wire Wire Line
+	6650 3100 6750 3100
+Wire Wire Line
+	6750 3100 6750 3400
+Wire Wire Line
+	6200 3400 6750 3400
+Wire Wire Line
+	6750 3400 7050 3400
+Connection ~ 6750 3400
+Wire Wire Line
+	6200 3300 7200 3300
+Wire Wire Line
+	7200 3300 7650 3300
+Wire Wire Line
+	7650 3300 7900 3300
+Wire Wire Line
+	7200 3550 7200 3300
+Connection ~ 7200 3300
+Wire Wire Line
+	7200 4050 7200 3800
+Wire Wire Line
+	7650 4050 7650 3800
+Connection ~ 7650 3300
+Wire Wire Line
+	7750 3000 7500 3000
+Wire Wire Line
+	7750 2800 7500 2800
+Wire Wire Line
+	7650 3550 7650 3300
+Text Label 4000 3000 0    60   ~ 0
+IP+
+Text Label 4000 3350 0    60   ~ 0
+IP-
+$Comp
+L RESISTOR R1
+U 1 1 5AE092EF
+P 6400 2900
+F 0 "R1" H 6350 3000 71  0000 C CNN
+F 1 "2 к" H 6750 3000 71  0000 C CNN
+F 2 "" H 6400 2900 60  0000 C CNN
+F 3 "" H 6400 2900 60  0000 C CNN
+	1    6400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR R2
+U 1 1 5AE093BF
+P 7200 2800
+F 0 "R2" V 7400 2600 71  0000 C CNN
+F 1 "10 к" V 7300 2600 71  0000 C CNN
+F 2 "" H 7200 2800 60  0000 C CNN
+F 3 "" H 7200 2800 60  0000 C CNN
+	1    7200 2800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6200 2900 6400 2900
+Wire Wire Line
+	6650 2900 7200 2900
+Wire Wire Line
+	7200 2900 7750 2900
+Wire Wire Line
+	7200 2800 7200 2900
+Connection ~ 7200 2900
+Text Label 7200 2300 3    60   ~ 0
+GND
+Wire Wire Line
+	7200 2550 7200 2300
+$EndSCHEMATC
