@@ -67,9 +67,9 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x01030_80000001)
-      (usegerberextensions false)
-      (excludeedgelayer false)
+      (layerselection 0x010f0_80000001)
+      (usegerberextensions true)
+      (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
       (viasonmask false)
@@ -90,7 +90,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory ../../../../Документы/GERBER_modul_encoder_ec11e/))
   )
 
   (net 0 "")

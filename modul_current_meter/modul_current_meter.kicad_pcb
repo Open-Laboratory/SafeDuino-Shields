@@ -3,7 +3,7 @@
   (general
     (links 18)
     (no_connects 0)
-    (area 120.320999 85.014999 160.471001 120.165001)
+    (area 118.164 85.014999 160.471001 120.165001)
     (thickness 1.6)
     (drawings 6)
     (tracks 68)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
@@ -68,8 +68,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x010f0_80000001)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -89,9 +89,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory ../../../../Документы/GERBER_modul_current_meter/))
   )
 
   (net 0 "")
@@ -481,7 +481,7 @@
   (segment (start 143.571 103.225) (end 145.389 103.225) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 145.6055 103.4415) (end 146.812 103.4415) (width 0.5) (layer F.Cu) (net 1) (tstamp 5AE098CE))
   (segment (start 145.389 103.225) (end 145.6055 103.4415) (width 0.5) (layer F.Cu) (net 1) (tstamp 5AE098CD))
-  (segment (start 152.146 106.8705) (end 153.6065 106.8705) (width 0.5) (layer F.Cu) (net 2) (status 400000))
+  (segment (start 152.146 106.8705) (end 153.6065 106.8705) (width 0.5) (layer F.Cu) (net 2))
   (via (at 154.178 107.442) (size 1.2) (drill 0.8) (layers F.Cu B.Cu) (net 2))
   (segment (start 153.6065 106.8705) (end 154.178 107.442) (width 0.5) (layer F.Cu) (net 2) (tstamp 5AE0A2E4))
   (segment (start 146.812 105.3465) (end 148.5265 105.3465) (width 1) (layer F.Cu) (net 2))
@@ -542,7 +542,7 @@
   (segment (start 137.221 100.685) (end 133.197 100.685) (width 0.25) (layer F.Cu) (net 6))
   (via (at 133.096 100.584) (size 1.2) (drill 0.8) (layers F.Cu B.Cu) (net 6))
   (segment (start 133.197 100.685) (end 133.096 100.584) (width 0.25) (layer F.Cu) (net 6) (tstamp 5AE09981))
-  (segment (start 152.146 104.9655) (end 152.146 102.616) (width 0.5) (layer F.Cu) (net 7) (status 400000))
+  (segment (start 152.146 104.9655) (end 152.146 102.616) (width 0.5) (layer F.Cu) (net 7))
   (segment (start 151.0665 102.616) (end 152.146 102.616) (width 0.5) (layer F.Cu) (net 7))
   (segment (start 152.146 102.616) (end 156.438 102.616) (width 0.5) (layer F.Cu) (net 7) (tstamp 5AE0A2E2))
   (segment (start 156.438 102.616) (end 156.464 102.59) (width 0.5) (layer F.Cu) (net 7) (tstamp 5AE0A2CA))
